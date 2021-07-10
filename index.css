@@ -1,53 +1,63 @@
-li {
-    padding-right: 5px;
-    padding-left: 5px;
-    border-right: solid black 1px;
-}
-
-a {
-    color: grey;
-}
-
-.card {
-    height: 300px;
-    border-bottom: 0;
-    border-left-color: white;
-    border-right-color: white;
-}
-
-.jumbotron {
-    padding: 25px;
-    margin-bottom: 165px;
-}
-
-button {
-    width: 150px;
-    border-radius: 15px;
-    height: 50px;
-    margin: 15px;
-}
-
-p a {
-    color: blue;
-}
-
-i {
-    padding: 6px;
-    border: solid black 1px;
-    height: 40px;
-    width: 30px;
-    text-align: center;
-    padding-top: 9px;
-    border-radius: 5px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-i:hover {
-    background-color: blue;
-    color: white;
-}
-
-.fa {
-    flex-basis: auto;
-}
+    li {
+        padding-right: 5px;
+        padding-left: 5px;
+        border-right: solid black 1px;
+    }
+    
+    a {
+        color: grey;
+    }
+    
+    .card {
+        height: 300px;
+        border-bottom: 0;
+        border-left-color: white;
+        border-right-color: white;
+    }
+    
+    .jumbotron {
+        padding: 25px;
+        margin-bottom: 165px;
+    }
+    
+    button {
+        width: 150px;
+        border-radius: 15px;
+        height: 50px;
+        margin: 15px;
+    }
+    
+    p a {
+        color: blue;
+    }
+    
+    i {
+        padding: 6px;
+        border: solid black 1px;
+        height: 40px;
+        width: 30px;
+        text-align: center;
+        padding-top: 9px;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    i:hover {
+        background-color: blue;
+        color: white;
+    }
+    
+    #image_2,
+    #image_3,
+    #image_4 {
+        display: none;
+    }
+    
+    #img-rollover {
+        overflow: hidden;
+    }
+    
+    .fa {
+        flex-basis: auto;
+    }
